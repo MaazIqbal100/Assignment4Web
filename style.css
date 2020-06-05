@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.topbar{
+    background-color:#707070;
+}
+/* ----------head----------------- */
+.nav:hover{
+    background-color:rgb(113, 130, 136);
+    color: black !important;
+}
+.navdrop a:hover{
+    background-color: lightblue;
+}
+
+
+/* ----------nev----------------- */
+.cardp1{
+    width: 300px;
+    height: 330px;
+}
+.cardp1:hover{
+    -ms-transform: scale(1);
+  -webkit-transform: scale(1); 
+  transform: scale(1.1); 
+  z-index: 1;
+ cursor: pointer;
+}
+/* ------------sales-------------------- */
+.cardp2{
+    width: 300px;
+}
+.cardp2:hover{
+    border: solid blueviolet;
+    cursor: pointer;
+    color: blueviolet;
+}
+/* -----------------new arival --------------------- */
+/* .foot{
+    background-color: #f8f9fa !important;
+} */
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min--moz-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 0.5){
+
+  html,
+  body{
+    width:100%;
+    overflow-x:hidden;
+  }
+  .cardp1
+  {
+      text-align: center;
+      position: relative;
+      right: 70px;
+  }
+
+  .cardp2
+  {
+    text-align: center;
+    position: relative;
+    right: 70px;
+}
+.cardp3
+  {
+    text-align: center;
+    position: relative;
+}
+
+.cardp4
+  {
+    text-align: center;
+    position: relative;
+    right: 70px;
+}
+
+.coll2{
+    font-size: 80px !important; 
+}
+}
